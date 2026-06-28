@@ -1,0 +1,62 @@
+# ── Claude workflow / planning docs ────────────────────────────────────────────
+*.md
+.claude/
+memory/
+mcp.json
+trigger-ref.md
+
+# ── Environment & secrets ───────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Python ──────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── FAISS indices & uploaded documents (generated at runtime) ───────────────────
+data/
+indices/
+uploads/
+
+# ── Logs ────────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Testing ─────────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── IDE ─────────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ──────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Docker volumes ──────────────────────────────────────────────────────────────
+docker/volumes/
+
+# ── SQLite dev database ─────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3

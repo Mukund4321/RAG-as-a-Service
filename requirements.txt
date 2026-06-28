@@ -1,0 +1,33 @@
+# Core API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-multipart==0.0.12
+
+# Vector search
+faiss-cpu==1.8.0
+
+# Embeddings
+sentence-transformers==3.1.1
+
+# LLM backends
+anthropic==0.34.2
+openai==1.51.0
+
+# Document parsing
+pypdf==4.3.1
+
+# Database
+# (SQLite is stdlib; no extra dep needed for dev)
+
+# Caching (Redis client — optional, only needed if REDIS_URL is set)
+redis==5.1.0
+
+# Testing
+pytest==8.3.3
+pytest-asyncio==0.24.0
+httpx==0.27.2
+
+# Type checking
+mypy==1.11.2

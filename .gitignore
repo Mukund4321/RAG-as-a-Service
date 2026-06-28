@@ -1,5 +1,6 @@
 # ── Claude workflow / planning docs ────────────────────────────────────────────
 *.md
+!README.md
 .claude/
 memory/
 mcp.json
